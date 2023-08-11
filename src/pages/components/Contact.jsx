@@ -36,14 +36,14 @@ const ContactForm = () => {
   const Map = (props) => {
     const { mapWithoutFilter } = props;
     return (
-        <div div
+        <div 
             className="mapsIframe"
             style={mapWithoutFilter ? { filter: 'none' } : undefined
             }
         >
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77874.94119930077!2d-1.597318984029658!3d52.414071897488675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877490ec442deb7%3A0xdb07ee97a461af89!2sCoventry%20Building%20Society%2C%20Coventry%20City%20Centre!5e0!3m2!1sen!2s!4v1691772710462!5m2!1sen!2s"   width="100%"
-                height="100%"
+                height="500%"
                 loading="lazy"
             />
         </div >
@@ -67,9 +67,10 @@ const ContactForm = () => {
                         <p className="p1">Coventry city centre, CV1</p>
                         <h2 className="H2">Email</h2>
                         <p className="p1"style={{ color: "#0086FF" }}>info@spyconsecurity.co.uk</p>
+                        <p className="p1"style={{ color: "#0086FF" }}>complaints@spyconsecurity.co.uk</p>
                        
 
-                         <Map mapWithoutFilter />
+                         <Map mapWithoutFilter  />
       </div>
       <Form></Form>
       </div>
