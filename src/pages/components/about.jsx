@@ -98,7 +98,7 @@ const about = () => {
             trusted security provider
           </p>
           <p className="ceoMessage">Wishing you safety and success</p>
-          <p className="ceoMessage">Zain </p>
+          <p className="ceoMessage">Director operations</p>
         </div>
       </div>
     </div>

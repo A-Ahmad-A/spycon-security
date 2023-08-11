@@ -34,6 +34,7 @@ input:focus {
 form {
   width: calc(min(1190px, calc(60%)));
   margin-inline: auto;
+  background-color: "#2D4059";
 }
 
 .displayflex {
