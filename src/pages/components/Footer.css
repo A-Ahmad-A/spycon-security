@@ -61,13 +61,14 @@ p{
   margin-inline: auto;
 }
 .bottomLineservices{
-
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
   border-top: 1px solid #ceb97b;
   width: calc(min(1920px, calc(100% - 60px)));
   display: flex;
   justify-content: center;
-  gap: 50px;
+    gap: 10px;
   margin-inline: auto;
 }
 .footerLogo{
@@ -76,18 +77,36 @@ p{
 }
 
 .footerLogoservices{
+  border-radius: 50;
   width: 100px;
-  height: 70px;
+  height: 80px;
+  padding: 15px;
 }
-
+.footerserviceheading{
+  font-size: 18px;
+}
+.certifications{
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 @media screen and (max-width: 900px) {
-
-
   .footerL{
    
     font-size: 16px;
   }
   
+.footerLogoservices{
+  width: 90px;
+  height: 70px;
+  padding: 15px;
+}
+.footerserviceheading{
+  font-size: 16px;
+}
+
   .blueText{
     font-size: 16px;
   }
@@ -116,6 +135,22 @@ p{
     display: none;
   }
   
+.footerLogoservices{
+  border-radius: 50;
+  width: 60px;
+  height: 54px;
+  padding: 0px;
+}
+.footerserviceheading{
+  font-size: 14px;
+}
+.certifications{
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
   .footerHeading{
     font-size: 20px;
   }

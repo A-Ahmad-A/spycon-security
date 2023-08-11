@@ -12,7 +12,6 @@
 }
 .contactHeading{  text-align: start;
   text-align: start;
-  margin-left: 10px;
   font-size: 36px;
   font-weight: bold !important;
   color: #ceb97b;
@@ -46,7 +45,7 @@
   @media screen and (max-width: 900px) {
  
     .contactHeading{
-      margin-left: 20px;
+      
       font-size: 24px;
     }
   .formanddetails{
@@ -69,12 +68,15 @@
   }
  }
  
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 600px) {
  
   .contactHeading{
-    margin-left: 20px;
     font-size: 24px;
   }
+
+  .mapsIframe {
+    height: 204px;
+   }
 .formanddetails{
   padding-top: 0px;
   flex-direction: column;
