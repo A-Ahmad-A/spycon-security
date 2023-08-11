@@ -4,12 +4,13 @@ import constructionSite from "./images/pexels-engin-akyurt-1463917.jpg";
 import camera from "./images/pexels-mateusz-feliksik-13422379.jpg";
 import darkBuilding from "./images/darkBuilding.jpg";
 import security from "../pages/images/portrait-male-security-guard-with-uniform.jpg";
+import pinkmamn from "./images/pinkmen.jpg"
 import "./Home.css";
 import "@fontsource/poppins";
 import "@fontsource/poppins/400.css";
 
 const App = () => {
-  const images = [constructionSite, darkBuilding, camera];
+  const images = [ darkBuilding, pinkmamn , constructionSite, camera];
 
   return (
     <div>

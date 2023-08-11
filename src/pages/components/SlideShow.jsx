@@ -39,11 +39,12 @@ const Slideshow = ({ images }) => {
       </div>
       {images.map((image, index) => (
         <img
-          loading="lazy"
+
           key={index}
           className={`slideshow-img ${index === currentImage ? "active" : ""} ${
             isTransitioning ? "transition" : ""
           }`}
+          
           style={{ opacity: index === currentImage ? 1 : 0 }}
           src={image}
           alt={`Image ${index + 1}`}

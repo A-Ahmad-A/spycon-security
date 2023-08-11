@@ -3,6 +3,8 @@ import "./Footer.css";
 import logo from "../images/plainLogo.png";
 import "@fontsource/poppins";
 import "@fontsource/poppins/400.css";
+import goals from "../images/goals.png";
+import safe from "../images/safecontractor.png";
 
 import { Link } from "react-router-dom";
 
@@ -29,6 +31,9 @@ const Footer = () => {
         </div>
 
         <div className="dispayColumn">
+        <h1 className="footerHeading">Address</h1>
+          <p>Coventry city centre, CV1</p>
+          
           <h1 className="footerHeading">Contact us</h1>
           <p>
             Email :{" "}
@@ -37,11 +42,12 @@ const Footer = () => {
         
         </div>
 
-        <div>
-          <h1 className="footerHeading">Address</h1>
-          <p>Coventry city centre, CV1</p>
+        <div style={{display:"flex", flexDirection:"column"}}>
+        <h1 className="footerHeading">Certifications</h1>
+          <img src={goals} className="footerLogoservices" />
+          <img src={safe} style={{marginTop:"10px"}}className="footerLogoservices" />
         </div>
-      </div>
+      </div>    
       <div className="bottomLine">
       <Link to="/" className="flinks">
       <img src={logo} className="footerLogo" />

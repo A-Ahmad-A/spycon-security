@@ -60,11 +60,25 @@ p{
   justify-content: space-around;
   margin-inline: auto;
 }
+.bottomLineservices{
+
+  padding-top: 10px;
+  border-top: 1px solid #ceb97b;
+  width: calc(min(1920px, calc(100% - 60px)));
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-inline: auto;
+}
 .footerLogo{
   width: 94px;
   height: 54px;
 }
 
+.footerLogoservices{
+  width: 100px;
+  height: 70px;
+}
 
 @media screen and (max-width: 900px) {
 
