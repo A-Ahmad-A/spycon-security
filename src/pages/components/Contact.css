@@ -1,0 +1,100 @@
+.contact-form {
+  width: calc(min(1920px, calc(100%) - 60px));
+  margin-inline: auto;  
+  border-radius: 4px;
+  background-color: #E6E6E6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mainDIV{
+  width: calc(min(1240px, calc(100%) - 60px));
+  margin-left: 50px;
+}
+.contactHeading{  text-align: start;
+  text-align: start;
+  margin-left: 10px;
+  font-size: 36px;
+  font-weight: bold !important;
+  color: #ceb97b;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+
+}
+.mapsIframe {
+  margin-top: 15px;
+  overflow: hidden;
+  width: 100%;
+  outline: none;
+  height: 504px;
+  border-right: 2px solid black !important;
+  border-bottom: 2px solid black!important;
+}
+.formanddetails{margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 50px;
+  margin-bottom: 150px;  
+  gap: 30px;
+}
+  .location{
+    width: 50% !important;
+  }
+
+
+  @media screen and (max-width: 900px) {
+ 
+    .contactHeading{
+      margin-left: 20px;
+      font-size: 24px;
+    }
+  .formanddetails{
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  .location{
+    width: 100% !important;
+  }
+  .H1{
+    font-size: 24px;
+  }
+  .H2{
+    font-size: 20px;
+  }
+  .p1{
+    font-size: 18px
+  }
+ }
+ 
+ @media screen and (max-width: 900px) {
+ 
+  .contactHeading{
+    margin-left: 20px;
+    font-size: 24px;
+  }
+.formanddetails{
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.location{
+  width: 100% !important;
+}
+.H1{
+  font-size: 20px;
+}
+.H2{
+  font-size: 16px;
+}
+.p1{
+  font-size: 14px
+}
+.location{
+  width: 100%;
+}
+}
+

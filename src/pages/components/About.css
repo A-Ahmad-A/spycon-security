@@ -1,0 +1,215 @@
+.wrapper {
+  width: calc(min(1920px, calc(100% - 60px)));
+
+  height: auto;
+  margin-inline: auto;
+
+}
+
+.bluePortion {
+  
+  
+  background-image: url("/src//pages//images/businessmen-working-together.jpg");
+  background-size: cover;
+  background-blend-mode:luminosity;
+  background-position: center;
+  background-color: grey;  
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;  
+}
+.blueportionData {
+  width: 50%;
+
+  padding: 20px;
+  padding-left: 68px;
+  padding-top: 180px;
+}
+.shadow{
+  box-shadow: 0 4px 8px #000001;
+  
+}
+.blueportionHeading {
+  color: #ceb97b;
+  font-family: Poppins;
+  text-shadow: 2px 3px 4px rgb(0, 0, 0);
+  margin: 0px;
+  font-weight: 900;
+  margin-left: 50px;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+.blueportionDetails {
+  width: 30%;
+  margin: 0px;
+  margin-left: 50px;
+  color: black;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px rgb(204, 200, 200);
+  margin-bottom: 15px;
+}
+.trainContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blueportionDetails {
+  text-align: center;
+}
+
+.movingText {
+  position: absolute;
+  white-space: nowrap;
+  animation: moveText 2s linear infinite; /* Adjust animation duration as needed */
+}
+@keyframes moveText {
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+}
+
+.yellowportion {
+  position: relative;
+  height: auto  
+}
+.detailH {
+  text-shadow: 2px 3px 4px rgb(71, 66, 66);  
+  color: #ceb97b;
+  font-family: poppins;
+  font-weight: bold;
+  width: max-content;
+  font-size: 24px;
+  border-bottom: 2px solid #ceb97b;
+}
+.detailP {
+  letter-spacing:0px;
+  font-family: poppins;
+  font-weight: 400;
+  width: 55%;
+  font-size: 18px;
+  color: black;
+}
+
+.whatwedo {
+  background-color: #E6E6E6;
+  position: relative;
+  padding: 50px;
+  padding-top: 70px;
+  padding-left: 120px;
+}
+
+.ceo {
+  
+  background-image: url(/src//pages/images/pngegg\(5\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  position: absolute;
+  height: auto ;
+  width: 30%;
+  background-color :#2D4059;
+  top:  -20%;
+  opacity: 1;
+  right: 0;
+  z-index: 20;
+  border: 1px solid black;
+  
+}
+
+.ceoMessage{
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgb(71, 66, 66);  
+  font-size: 18px;
+  font-family: poppins;
+  letter-spacing: 0.5;
+ 
+}
+
+.span2{
+    
+  color:black;
+  font-weight: bold;
+  font-weight: 300;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  
+  .blueportionHeading {
+    font-size: 28px;
+  }
+  
+.blueportionDetails {
+    font-size: 16px;
+}
+  .detailH{
+    
+  text-shadow: 1px 1px 2px rgb(71, 66, 66);  
+    font-size: 16px !important;
+  }
+
+  .detailP{
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .ceoMessage{
+    font-size: 14px;
+  }
+  .span2{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  
+  .blueportionHeading {
+    font-size: 22px;
+  }
+  
+  .blueportionData{
+    padding-left:  30px;
+  }
+.blueportionDetails {
+    font-size: 16px;
+}
+  .detailH{
+    
+  text-shadow: 1px 1px 2px rgb(71, 66, 66);  
+    font-size: 14px !important;
+    width: auto;
+  }
+
+  .detailP{
+    font-size: 12px;
+  }
+
+  .ceoMessage{
+    font-size: 12px !important;
+  }
+  .span2{
+    font-size: 14px;
+  }
+  .whatwedo{
+    padding-left: 10px;
+  }
+  .ceo{
+    display: none;
+  }
+}
+
+
