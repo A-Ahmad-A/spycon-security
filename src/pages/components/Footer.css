@@ -6,7 +6,28 @@ footer {
   height: auto;
   width: 100%;
 }
+.instagram-icon-container {
+  display: inline-block;
+}
 
+.instagram-icon {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.instagram-icon-container:hover .instagram-icon {
+  color: palevioletred;
+}
+
+.socialAccounts{
+  
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
 .flinks{
   text-decoration: none;
   color: white;

@@ -41,7 +41,17 @@
     width: 50% !important;
   }
 
-
+  .instagram-icon-container-contact {
+    display: inline-block;
+    
+  }
+  
+  .instagram-icon-contact {
+    font-size: 35px;  color:palevioletred;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
   @media screen and (max-width: 900px) {
  
     .contactHeading{

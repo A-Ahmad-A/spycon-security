@@ -6,7 +6,7 @@ import "@fontsource/poppins/400.css";
 import goals from "../images/goals.png";
 import safe from "../images/safecontractor.png";
 import ico from "../images/ico.png";
-
+import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -38,9 +38,7 @@ const Footer = () => {
           <p>
             <span className="blueText">info@spyconsecurity.co.uk </span>{" "}
           </p>
-          <p>
-            <span className="blueText">complaints@spyconsecurity.co.uk </span>{" "}
-          </p>
+         
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -48,14 +46,14 @@ const Footer = () => {
           <Link to="/services" className="flinks">
             <h1 className="footerL">Fire alarm testing and installation</h1>
           </Link>
-       
+
           <Link to="/servies" className="flinks">
             <h1 className="footerL">Mobile patrol & key holding</h1>
           </Link>
           <Link to="/servies" className="flinks">
             <h1 className="footerL">Construction site security</h1>
           </Link>
-          
+
           <Link to="/services" className="flinks">
             <h1 className="footerL">Cctv installation</h1>
           </Link>
@@ -70,11 +68,11 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div  style={{marginTop:"10px"}}className="bottomLineservices">
+      <div style={{ marginTop: "10px" }} className="bottomLineservices">
         <div>
           {" "}
           <h1 className="footerserviceheading">
-          Our accreditations and certifications to signify our quality of work
+            Our accreditations and certifications to signify our quality of work
           </h1>
         </div>
 
@@ -96,9 +94,20 @@ const Footer = () => {
         <Link to="/" className="flinks">
           <img src={logo} className="footerLogo" />
         </Link>
-        <p>
-          &copy; {new Date().getFullYear()} SpyconSecurity. All rights reserved.
-        </p>
+        <div className="socialAccounts">
+          <p>
+            &copy; {new Date().getFullYear()} SpyconSecurity. All rights
+            reserved.
+          </p>
+          <a
+            href="https://instagram.com/spycon_security?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="instagram-icon-container"
+          >
+            <FaInstagram className="instagram-icon" />
+          </a>
+        </div>
       </div>
     </footer>
   );
